@@ -154,7 +154,7 @@ a,
 img {
      max-width: 100%;
      height: 100%;
-     object-fit: contain;
+     object-fit: cover;
 }
 
  :focus {
@@ -523,6 +523,11 @@ font-size: 21px;
      padding: 30px 20px;
      margin-bottom: 30px;
 }
+.best_box.pad_10{
+     height: 100%;
+     margin-top: 10px;
+     margin-bottom: 0;
+}
 
 .best_box h4 {
      color: #fff;
@@ -711,7 +716,13 @@ font-size: 21px;
 
 .testimonial {
 
-     padding: 120px 0;
+     padding: 80px 0;
+}
+@media screen and (max-width: 568px) {
+     .testimonial {
+
+          padding: 40px 0;
+     }
 }
 
 .testimonial .titlepage h2 {
@@ -740,6 +751,7 @@ font-size: 21px;
 }
 .carousel img{
      max-height: 480px;
+     object-fit: contain;
 }
 .testimonial_Carousel .test_box h3 {
      font-size: 30px;
@@ -955,7 +967,20 @@ video{
      transform: translate3d(0, 0, 0);
      display: block;
      margin: 0 auto;
+     &:hover {
+          background-color:rgb(57, 35, 198);
+          transition: ease-in all 0.5s;
+          color: #fff;
+          border-radius: 26px;
+     }
 }
 .function li{
      color: dark;
+}
+.bg-color-brRad{
+     background: rgba(93, 80, 181, 0.461);
+     border-radius: 30px;
+}
+.obj-fit-containe{
+     object-fit: contain;
 }

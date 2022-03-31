@@ -422,10 +422,6 @@ button {
   border: #2bcc91 solid 7px;
 }
 
-.padding_right1 {
-  padding-right: 0;
-}
-
 .titlepage {
   text-align: center;
   padding-bottom: 60px;
@@ -506,11 +502,11 @@ button {
 }
 
 .best_box {
+  height: 100%;
   text-align: center;
   background-color: black;
   border-radius: 20px;
   padding: 30px 20px;
-  margin-bottom: 30px;
 }
 
 .best_box.pad_10 {
@@ -957,6 +953,10 @@ video {
 
 .function li {
   color: dark;
+}
+
+.bg-color-span {
+  background: #5d50b5;
 }
 
 .bg-color-brRad {

@@ -430,9 +430,9 @@ font-size: 21px;
 
 
 
-.padding_right1 {
-     padding-right: 0;
-}
+// .padding_right1 {
+//      padding-right: 0;
+// }
 
 .titlepage {
      text-align: center;
@@ -517,11 +517,12 @@ font-size: 21px;
 }
 
 .best_box {
+     height: 100%;
      text-align: center;
      background-color: black;
      border-radius: 20px;
      padding: 30px 20px;
-     margin-bottom: 30px;
+     // margin-bottom: 30px;
 }
 .best_box.pad_10{
      height: 100%;
@@ -976,6 +977,9 @@ video{
 }
 .function li{
      color: dark;
+}
+.bg-color-span{
+     background: rgb(93, 80, 181);
 }
 .bg-color-brRad{
      background: rgba(93, 80, 181, 0.461);
